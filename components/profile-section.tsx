@@ -6,7 +6,7 @@ export function ProfileSection() {
     <section className="flex flex-col items-center text-center py-12 space-y-6">
       <Avatar className="h-32 w-32 border-4 border-background shadow-lg">
         <AvatarImage src="/avatar.png" alt="Alexander" />
-        <AvatarFallback>AM</AvatarFallback>
+        <AvatarFallback>Alex</AvatarFallback>
       </Avatar>
       <div className="space-y-3">
         <h1 className="text-4xl font-serif font-bold text-foreground">

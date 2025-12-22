@@ -57,7 +57,7 @@ export default function DiscoverPage() {
         <div className="flex flex-col items-center text-center space-y-4">
           <Avatar className="h-24 w-24 border-4 border-background shadow-lg">
             <AvatarImage src="/avatar.png" alt="Alex" />
-            <AvatarFallback>AM</AvatarFallback>
+            <AvatarFallback>Alex</AvatarFallback>
           </Avatar>
           <div className="space-y-2">
             <h1 className="text-3xl font-serif font-bold text-foreground">
