@@ -19,12 +19,6 @@ export const metadata: Metadata = {
 export default function DiscoverPage() {
   const links = [
     {
-      title: "Visit My Website",
-      url: siteConfig.site.url,
-      icon: ExternalLink,
-      description: "Read articles and explore content",
-    },
-    {
       title: "YouTube",
       url: siteConfig.social.youtube,
       icon: Youtube,
@@ -41,6 +35,12 @@ export default function DiscoverPage() {
       url: siteConfig.social.tiktok,
       icon: LinkIcon,
       description: "Short-form content and tips",
+    },
+    {
+      title: "Visit My Website",
+      url: siteConfig.site.url,
+      icon: ExternalLink,
+      description: "Read articles and explore content",
     },
     {
       title: "Email Me",
@@ -117,4 +117,3 @@ export default function DiscoverPage() {
     </div>
   );
 }
-
