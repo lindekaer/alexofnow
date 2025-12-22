@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next'
 import { getAllPosts } from '@/lib/posts'
+import { siteConfig } from '@/lib/site-config'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://alexofnow.com'
+  const baseUrl = siteConfig.site.url
   
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [

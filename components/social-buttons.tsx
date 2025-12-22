@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { siteConfig } from "@/lib/site-config";
 
 interface SocialButtonsProps {
   showYouTube?: boolean;
@@ -16,10 +17,10 @@ export function SocialButtons({
   showInstagram = false,
   showTikTok = false,
   showEmail = false,
-  youtubeUrl = "https://youtube.com",
-  instagramUrl = "https://instagram.com",
-  tiktokUrl = "https://tiktok.com",
-  emailAddress = "hello@example.com",
+  youtubeUrl = siteConfig.social.youtube,
+  instagramUrl = siteConfig.social.instagram,
+  tiktokUrl = siteConfig.social.tiktok,
+  emailAddress = siteConfig.social.email,
 }: SocialButtonsProps) {
   const buttons = [
     { show: showYouTube, name: "youtube" },
