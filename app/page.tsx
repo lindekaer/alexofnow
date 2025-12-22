@@ -5,6 +5,9 @@ import { PostCard } from "@/components/post-card";
 import { getRecentPosts } from "@/lib/posts";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { seoConfig } from "@/lib/seo-config";
+
+export const metadata = seoConfig.home;
 
 export default function HomePage() {
   const recentPosts = getRecentPosts(3);
@@ -19,7 +22,7 @@ export default function HomePage() {
           <section className="py-12 space-y-8">
             <div className="flex items-center justify-between">
               <h2 className="text-3xl font-serif font-bold text-foreground">
-                Recent Posts
+                Feel free to explore
               </h2>
               <Button variant="ghost" asChild>
                 <Link href="/posts">View all →</Link>

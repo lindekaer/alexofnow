@@ -3,16 +3,36 @@ import { SiteFooter } from "@/components/site-footer";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import ReactMarkdown from "react-markdown";
 import { SocialButtons } from "@/components/social-buttons";
+import { Metadata } from "next";
 
 export function generateStaticParams() {
   const posts = getAllPosts();
   return posts.map((post) => ({
     slug: post.slug,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
+
+  if (!post) {
+    return {
+      title: "Post Not Found",
+      description: "The requested post could not be found.",
+    };
+  }
+
+  return {
+    title: `${post.title} | alexofnow`,
+    description: post.excerpt,
+  };
 }
 
 export default async function PostPage({

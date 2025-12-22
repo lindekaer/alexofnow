@@ -2,6 +2,9 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { getAllPosts, getCategories } from "@/lib/posts";
 import { PostsFilter } from "@/components/posts-filter";
+import { seoConfig } from "@/lib/seo-config";
+
+export const metadata = seoConfig.posts;
 
 export default function PostsPage() {
   const allPosts = getAllPosts();

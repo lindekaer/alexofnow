@@ -3,6 +3,9 @@ import { SiteFooter } from "@/components/site-footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { SocialButtons } from "@/components/social-buttons";
 import { ProfileSection } from "@/components/profile-section";
+import { seoConfig } from "@/lib/seo-config";
+
+export const metadata = seoConfig.about;
 
 export default function AboutPage() {
   return (
