@@ -7,7 +7,7 @@ readTime: 6 min read
 category: Meditation
 thumbnail: /meditation-course.jpeg
 author:
-  name: Alex of Now
+  name: Alexander
   avatar: /avatar.png
 ---
 
@@ -23,8 +23,6 @@ In just a few minutes a day, you’ll learn how to consciously change your emoti
 
 The course builds step by step. Each day adds one new layer to your practice, making meditation feel natural, structured, and easy to continue on your own.
 
----
-
 ## What This Course Is About
 
 Meditation is not about stopping your thoughts or doing something “perfectly.”  
@@ -39,8 +37,6 @@ Using proven breathing techniques, you’ll learn how to:
 
 All practices are short (3–5 minutes) and can be done anywhere - at home, at work, or while traveling.
 
----
-
 ## Why This Course Works
 
 - 🧠 **Beginner-friendly** - no prior experience needed
@@ -51,9 +47,7 @@ By the end of the course, you’ll understand _how_ meditation works, _why_ brea
 
 If you don’t know where to begin - this is the easiest and most effective starting point.
 
----
-
-## The 7-Day Practice (Detailed Overview)
+## The 7-Day Practice
 
 ### Introduction - Start Meditating Today
 
@@ -69,9 +63,7 @@ You’ll learn:
 
 The focus is on **starting simple**. Instead of forcing long sessions, you’ll learn how to build a habit that fits naturally into your life.
 
-👉 [Watch the Introduction on YouTube](https://youtu.be/xKrQxnX9vYM)
-
----
+[Watch the Introduction on YouTube](https://youtu.be/xKrQxnX9vYM)
 
 ### Day 1 - Box Breathing
 
@@ -87,9 +79,7 @@ On this day, you’ll learn:
 
 This practice becomes the foundation for the entire course. Once you understand box breathing, meditation stops feeling vague and starts feeling structured and reliable.
 
-👉 [Watch Day 1 on YouTube](https://youtu.be/bD1mImLhHvY)
-
----
+[Watch Day 1 on YouTube](https://youtu.be/bD1mImLhHvY)
 
 ### Day 2 - Belly Breathing
 
@@ -105,9 +95,7 @@ On Day 2, you’ll learn how to:
 
 This practice is especially helpful when you feel anxious, restless, or disconnected.
 
-👉 [Watch Day 2 on YouTube](https://youtu.be/KSs4NqsL1nQ)
-
----
+[Watch Day 2 on YouTube](https://youtu.be/KSs4NqsL1nQ)
 
 ### Day 3 - Full Breath
 
@@ -123,9 +111,7 @@ On this day, you’ll experience:
 
 This technique helps reset both mind and body and is ideal when you feel mentally overloaded or physically tired.
 
-👉 [Watch Day 3 on YouTube](https://youtu.be/gNPWxuqV0ig)
-
----
+[Watch Day 3 on YouTube](https://youtu.be/gNPWxuqV0ig)
 
 ### Day 4 - Hand Posture
 
@@ -141,9 +127,7 @@ On Day 4, you’ll learn:
 
 This day helps you feel more “settled” and focused during your practice, even in short sessions.
 
-👉 [Watch Day 4 on YouTube](https://youtu.be/CcDOQXKFtIc)
-
----
+[Watch Day 4 on YouTube](https://youtu.be/CcDOQXKFtIc)
 
 ### Day 5 - Inward Focus (Pratyahara)
 
@@ -159,9 +143,7 @@ On this day, you’ll learn:
 
 This practice often brings a noticeable sense of mental quiet and inner space.
 
-👉 [Watch Day 5 on YouTube](https://youtu.be/8hogfxaWk08)
-
----
+[Watch Day 5 on YouTube](https://youtu.be/8hogfxaWk08)
 
 ### Day 6 - Energizing Breath
 
@@ -177,9 +159,7 @@ On Day 6, you’ll practice:
 
 This practice is ideal for mornings or mid-day slumps.
 
-👉 [Watch Day 6 on YouTube](https://youtu.be/DaqPGsbE92k)
-
----
+[Watch Day 6 on YouTube](https://youtu.be/DaqPGsbE92k)
 
 ### Day 7 - Relaxing Breath
 
@@ -194,10 +174,7 @@ You’ll learn:
 - How to prepare your body and mind for sleep or deep relaxation
 
 This is a powerful practice to end the day or reset after intense or demanding situations.
-
-👉 [Watch Day 7 on YouTube](https://youtu.be/c21_JE-AdV8)
-
----
+[Watch Day 7 on YouTube](https://youtu.be/c21_JE-AdV8)
 
 ## What You’ll Take With You
 
@@ -210,14 +187,8 @@ By completing this course, you’ll be able to:
 
 Meditate with me for a few minutes a day - then make it your own.
 
----
-
-## Start Today
-
 If you’ve ever asked yourself:
 
 > _“How do I actually start meditating?”_
 
 This course gives you a clear, practical answer.
-
-👉 **Begin with Day 1 and follow along daily for the best results.**

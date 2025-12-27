@@ -88,7 +88,7 @@ export default async function PostPage({
               <h1 className="text-5xl font-serif font-bold text-foreground text-balance">
                 {post.title}
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed text-pretty">
+              <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
                 {post.excerpt}
               </p>
               {post.thumbnail && (
@@ -105,9 +105,7 @@ export default async function PostPage({
               )}
             </div>
 
-            <hr className="border-border" />
-
-            <div className="prose prose-lg max-w-none">
+            <div className="prose prose-md">
               <ReactMarkdown>{post.content}</ReactMarkdown>
             </div>
 
