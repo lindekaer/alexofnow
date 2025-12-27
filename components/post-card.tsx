@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import type { BlogPost } from "@/lib/posts"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 
@@ -8,7 +9,18 @@ interface PostCardProps {
 
 export function PostCard({ post }: PostCardProps) {
   return (
-    <Card className="overflow-hidden transition-all hover:shadow-md">
+    <Card className={`overflow-hidden transition-all hover:shadow-md ${post.thumbnail ? 'pt-0' : ''}`}>
+      {post.thumbnail && (
+        <Link href={`/posts/${post.slug}`} className="block relative w-full aspect-video overflow-hidden">
+          <Image
+            src={post.thumbnail}
+            alt={post.title}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
+        </Link>
+      )}
       <CardHeader className="space-y-2">
         <div className="flex items-center gap-2 text-xs text-muted-foreground">
           <time dateTime={post.date}>

@@ -5,6 +5,7 @@ excerpt: You have the power to change your life one breath at a time. It's not d
 date: 2025-12-25
 readTime: 6 min read
 category: Meditation
+thumbnail: /meditation-course.jpeg
 author:
   name: Alex of Now
   avatar: /avatar.png
@@ -68,7 +69,7 @@ You’ll learn:
 
 The focus is on **starting simple**. Instead of forcing long sessions, you’ll learn how to build a habit that fits naturally into your life.
 
-👉 [Watch the Introduction on YouTube](YOUR_INTRO_LINK)
+👉 [Watch the Introduction on YouTube](https://youtu.be/xKrQxnX9vYM)
 
 ---
 
@@ -86,7 +87,7 @@ On this day, you’ll learn:
 
 This practice becomes the foundation for the entire course. Once you understand box breathing, meditation stops feeling vague and starts feeling structured and reliable.
 
-👉 [Watch Day 1 on YouTube](YOUR_DAY_1_LINK)
+👉 [Watch Day 1 on YouTube](https://youtu.be/bD1mImLhHvY)
 
 ---
 
@@ -104,7 +105,7 @@ On Day 2, you’ll learn how to:
 
 This practice is especially helpful when you feel anxious, restless, or disconnected.
 
-👉 [Watch Day 2 on YouTube](YOUR_DAY_2_LINK)
+👉 [Watch Day 2 on YouTube](https://youtu.be/KSs4NqsL1nQ)
 
 ---
 
@@ -122,7 +123,7 @@ On this day, you’ll experience:
 
 This technique helps reset both mind and body and is ideal when you feel mentally overloaded or physically tired.
 
-👉 [Watch Day 3 on YouTube](YOUR_DAY_3_LINK)
+👉 [Watch Day 3 on YouTube](https://youtu.be/gNPWxuqV0ig)
 
 ---
 
@@ -140,7 +141,7 @@ On Day 4, you’ll learn:
 
 This day helps you feel more “settled” and focused during your practice, even in short sessions.
 
-👉 [Watch Day 4 on YouTube](YOUR_DAY_4_LINK)
+👉 [Watch Day 4 on YouTube](https://youtu.be/CcDOQXKFtIc)
 
 ---
 
@@ -158,7 +159,7 @@ On this day, you’ll learn:
 
 This practice often brings a noticeable sense of mental quiet and inner space.
 
-👉 [Watch Day 5 on YouTube](YOUR_DAY_5_LINK)
+👉 [Watch Day 5 on YouTube](https://youtu.be/8hogfxaWk08)
 
 ---
 
@@ -176,7 +177,7 @@ On Day 6, you’ll practice:
 
 This practice is ideal for mornings or mid-day slumps.
 
-👉 [Watch Day 6 on YouTube](YOUR_DAY_6_LINK)
+👉 [Watch Day 6 on YouTube](https://youtu.be/DaqPGsbE92k)
 
 ---
 
@@ -194,7 +195,7 @@ You’ll learn:
 
 This is a powerful practice to end the day or reset after intense or demanding situations.
 
-👉 [Watch Day 7 on YouTube](YOUR_DAY_7_LINK)
+👉 [Watch Day 7 on YouTube](https://youtu.be/c21_JE-AdV8)
 
 ---
 

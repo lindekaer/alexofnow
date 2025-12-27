@@ -6,6 +6,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import ReactMarkdown from "react-markdown";
 import { SocialButtons } from "@/components/social-buttons";
 import { Metadata } from "next";
+import Image from "next/image";
 
 export function generateStaticParams() {
   const posts = getAllPosts();
@@ -54,8 +55,23 @@ export default async function PostPage({
         <article className="container mx-auto max-w-3xl px-4 py-12">
           <div className="space-y-8">
             <div className="space-y-4">
-              <div className="space-y-4">
-                <div className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <Avatar className="h-8 w-8">
+                  <AvatarImage
+                    src={post.author.avatar || "/placeholder.svg"}
+                    alt={post.author.name}
+                  />
+                  <AvatarFallback>
+                    {post.author.name.substring(0, 2).toUpperCase()}
+                  </AvatarFallback>
+                </Avatar>
+                <div>
+                  <p className="text-xs font-medium text-foreground">
+                    {post.author.name}
+                  </p>
+                </div>
+                <span className="text-xs text-muted-foreground">•</span>
+                <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
                   <time dateTime={post.date}>
                     {new Date(post.date).toLocaleDateString("en-US", {
                       month: "long",
@@ -75,25 +91,18 @@ export default async function PostPage({
               <p className="text-xl text-muted-foreground leading-relaxed text-pretty">
                 {post.excerpt}
               </p>
-              <div className="flex items-center gap-3 pt-4">
-                <Avatar className="h-12 w-12">
-                  <AvatarImage
-                    src={post.author.avatar || "/placeholder.svg"}
-                    alt={post.author.name}
+              {post.thumbnail && (
+                <div className="relative w-full aspect-video overflow-hidden rounded-lg mt-4">
+                  <Image
+                    src={post.thumbnail}
+                    alt={post.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 768px"
+                    priority
                   />
-                  <AvatarFallback>
-                    {post.author.name.substring(0, 2).toUpperCase()}
-                  </AvatarFallback>
-                </Avatar>
-                <div>
-                  <p className="text-sm font-medium text-foreground">
-                    {post.author.name}
-                  </p>
-                  <p className="text-xs text-muted-foreground">
-                    Just a normal guy trying to live a better life.
-                  </p>
                 </div>
-              </div>
+              )}
             </div>
 
             <hr className="border-border" />

@@ -10,6 +10,7 @@ export interface BlogPost {
   date: string;
   readTime: string;
   category: string;
+  thumbnail?: string;
   author: {
     name: string;
     avatar: string;
@@ -35,6 +36,7 @@ export function getAllPosts(): BlogPost[] {
         date: data.date,
         readTime: data.readTime,
         category: data.category,
+        thumbnail: data.thumbnail,
         author: data.author,
       } as BlogPost;
     });
