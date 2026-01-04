@@ -13,5 +13,9 @@ export const seoConfig: Record<string, Metadata> = {
     title: 'All posts | alexofnow',
     description: 'Explore all articles on meditation, breathwork, and intentional living.',
   },
+  newsletters: {
+    title: 'Newsletters | alexofnow',
+    description: 'Web versions of email newsletters. Explore what I\'m learning and sharing.',
+  },
 }
 

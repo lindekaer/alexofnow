@@ -2,6 +2,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ProfileSection } from "@/components/profile-section";
 import { PostCard } from "@/components/post-card";
+import { NewsletterWidget } from "@/components/newsletter-widget";
 import { getRecentPosts } from "@/lib/posts";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -19,7 +20,7 @@ export default function HomePage() {
         <div className="container mx-auto max-w-4xl px-4">
           <ProfileSection />
 
-          <section className="py-12 space-y-8">
+          <section className="space-y-8 pt-12">
             <div className="flex items-center justify-between">
               <h2 className="text-3xl font-serif font-bold text-foreground">
                 Feel free to explore
@@ -33,6 +34,10 @@ export default function HomePage() {
                 <PostCard key={post.slug} post={post} />
               ))}
             </div>
+          </section>
+
+          <section className="py-16">
+            <NewsletterWidget />
           </section>
         </div>
       </main>
