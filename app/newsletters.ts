@@ -9,13 +9,13 @@ export const newsletters = [
         title: "Atomic Habits (book)",
         url: "https://www.goodreads.com/book/show/40121378-atomic-habits",
         description:
-          "Easy to read, highly motivating, easy to implement. It’s a good book to have in the apartment and I reading even just a few pages now and then always leaves me feeling inspired and motivated.",
+          "Easy to read, highly motivating, easy to implement. It’s a good book to have in the apartment and reading even just a few pages now and then always leaves me feeling inspired and motivated.",
       },
       {
         title: "Atomic Habits (summary)",
         url: "https://www.youtube.com/watch?v=PZ7lDrwYdZc",
         description:
-          "Great summary either to listen to or watch with engaging graphics.Easy to follow and well explained.",
+          "Great summary either to listen to or watch with engaging graphics. Easy to follow and well explained.",
       },
       {
         title: "6 small habits can CHANGE your life (21 day plan)",
